@@ -94,6 +94,6 @@ app.listen(port, async () => {
   });
 
   // Reset DB
-  client.db("dogdb").collection("users").deleteMany({});
-  client.db("dogdb").collection("comments").deleteMany({});
+  // client.db("dogdb").collection("users").deleteMany({});
+  // client.db("dogdb").collection("comments").deleteMany({});
 });
